@@ -1,14 +1,10 @@
 import java.io.*;
-    import java.math.*;
-    import java.security.*;
-    import java.text.*;
-    import java.util.*;
-    import java.util.concurrent.*;
-    import java.util.regex.*;
+import java.util.*;
 
 public class LinkedListInsertAtTail {
 
   static class SinglyLinkedListNode {
+
     public int data;
     public SinglyLinkedListNode next;
 
@@ -19,6 +15,7 @@ public class LinkedListInsertAtTail {
   }
 
   static class SinglyLinkedList {
+
     public SinglyLinkedListNode head;
 
     public SinglyLinkedList() {
@@ -28,7 +25,8 @@ public class LinkedListInsertAtTail {
 
   }
 
-  public static void printSinglyLinkedList(SinglyLinkedListNode node, String sep, BufferedWriter bufferedWriter) throws IOException {
+  public static void printSinglyLinkedList(SinglyLinkedListNode node, String sep,
+      BufferedWriter bufferedWriter) throws IOException {
     while (node != null) {
       bufferedWriter.write(String.valueOf(node.data));
 
@@ -55,7 +53,7 @@ public class LinkedListInsertAtTail {
     SinglyLinkedListNode toTraverse = head;
     SinglyLinkedListNode newNodeToAdd = new SinglyLinkedListNode(data);
 
-    if(toTraverse == null) {
+    if (toTraverse == null) {
       return newNodeToAdd;
     }
     while (toTraverse.next != null) {
@@ -68,7 +66,8 @@ public class LinkedListInsertAtTail {
   private static final Scanner scanner = new Scanner(System.in);
 
   public static void main(String[] args) throws IOException {
-    BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+    BufferedWriter bufferedWriter = new BufferedWriter(
+        new FileWriter(System.getenv("OUTPUT_PATH")));
 
     SinglyLinkedList llist = new SinglyLinkedList();
 
@@ -83,8 +82,6 @@ public class LinkedListInsertAtTail {
 
       llist.head = llist_head;
     }
-
-
 
     printSinglyLinkedList(llist.head, "\n", bufferedWriter);
     bufferedWriter.newLine();

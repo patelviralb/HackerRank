@@ -1,14 +1,10 @@
 import java.io.*;
-    import java.math.*;
-    import java.security.*;
-    import java.text.*;
-    import java.util.*;
-    import java.util.concurrent.*;
-    import java.util.regex.*;
+import java.util.*;
 
 public class LinkedListInsertAtGivenPosition {
 
   static class SinglyLinkedListNode {
+
     public int data;
     public SinglyLinkedListNode next;
 
@@ -19,6 +15,7 @@ public class LinkedListInsertAtGivenPosition {
   }
 
   static class SinglyLinkedList {
+
     public SinglyLinkedListNode head;
     public SinglyLinkedListNode tail;
 
@@ -40,7 +37,8 @@ public class LinkedListInsertAtGivenPosition {
     }
   }
 
-  public static void printSinglyLinkedList(SinglyLinkedListNode node, String sep, BufferedWriter bufferedWriter) throws IOException {
+  public static void printSinglyLinkedList(SinglyLinkedListNode node, String sep,
+      BufferedWriter bufferedWriter) throws IOException {
     while (node != null) {
       bufferedWriter.write(String.valueOf(node.data));
 
@@ -63,10 +61,11 @@ public class LinkedListInsertAtGivenPosition {
    * }
    *
    */
-  static SinglyLinkedListNode insertNodeAtPosition(SinglyLinkedListNode head, int data, int position) {
+  static SinglyLinkedListNode insertNodeAtPosition(SinglyLinkedListNode head, int data,
+      int position) {
     SinglyLinkedListNode start = head;
     SinglyLinkedListNode newNodeToAdd = new SinglyLinkedListNode(data);
-    int i = position-1;
+    int i = position - 1;
     while (start.next != null && i > 0) {
       start = start.next;
       i--;
@@ -80,7 +79,8 @@ public class LinkedListInsertAtGivenPosition {
   private static final Scanner scanner = new Scanner(System.in);
 
   public static void main(String[] args) throws IOException {
-    BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+    BufferedWriter bufferedWriter = new BufferedWriter(
+        new FileWriter(System.getenv("OUTPUT_PATH")));
 
     SinglyLinkedList llist = new SinglyLinkedList();
 

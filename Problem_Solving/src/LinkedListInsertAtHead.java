@@ -1,14 +1,10 @@
 import java.io.*;
-    import java.math.*;
-    import java.security.*;
-    import java.text.*;
-    import java.util.*;
-    import java.util.concurrent.*;
-    import java.util.regex.*;
+import java.util.*;
 
 public class LinkedListInsertAtHead {
 
   static class SinglyLinkedListNode {
+
     public int data;
     public SinglyLinkedListNode next;
 
@@ -19,6 +15,7 @@ public class LinkedListInsertAtHead {
   }
 
   static class SinglyLinkedList {
+
     public SinglyLinkedListNode head;
     public SinglyLinkedListNode tail;
 
@@ -30,7 +27,8 @@ public class LinkedListInsertAtHead {
 
   }
 
-  public static void printSinglyLinkedList(SinglyLinkedListNode node, String sep, BufferedWriter bufferedWriter) throws IOException {
+  public static void printSinglyLinkedList(SinglyLinkedListNode node, String sep,
+      BufferedWriter bufferedWriter) throws IOException {
     while (node != null) {
       bufferedWriter.write(String.valueOf(node.data));
 
@@ -63,7 +61,8 @@ public class LinkedListInsertAtHead {
   private static final Scanner scanner = new Scanner(System.in);
 
   public static void main(String[] args) throws IOException {
-    BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
+    BufferedWriter bufferedWriter = new BufferedWriter(
+        new FileWriter(System.getenv("OUTPUT_PATH")));
 
     SinglyLinkedList llist = new SinglyLinkedList();
 
@@ -78,8 +77,6 @@ public class LinkedListInsertAtHead {
 
       llist.head = llist_head;
     }
-
-
 
     printSinglyLinkedList(llist.head, "\n", bufferedWriter);
     bufferedWriter.newLine();
