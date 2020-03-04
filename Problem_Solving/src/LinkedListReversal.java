@@ -66,7 +66,7 @@ public class LinkedListReversal {
     SinglyLinkedListNode currentNode = previousNode.next;
     SinglyLinkedListNode nextNode = currentNode.next;
     previousNode.next = null;
-    
+
     while (currentNode.next != null) {
       currentNode.next = previousNode;
       previousNode = currentNode;
