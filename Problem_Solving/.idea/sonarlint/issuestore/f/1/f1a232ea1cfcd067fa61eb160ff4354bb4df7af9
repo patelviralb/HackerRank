@@ -1,0 +1,4 @@
+
+hsquid:S2095"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ð¢Å–þÿÿÿÿ
+Wsquid:S1994	";Move the update of "length" into this loop's update clause.(õðØ³ûÿÿÿÿ
+1squid:S1220""Move this file to a named package.

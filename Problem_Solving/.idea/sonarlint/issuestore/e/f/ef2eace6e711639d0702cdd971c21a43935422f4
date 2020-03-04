@@ -1,0 +1,10 @@
+
+Š"squid:ClassVariableVisibilityCheck"PMake tail a static final constant or non-public and provide accessors if needed.(áŸ¬Àıÿÿÿÿ8¹©¼—Š.
+1squid:S1220""Move this file to a named package.
+Usquid:S2589?"7Remove this expression which always evaluates to "true"(ÿ ğñ8¹©¼—Š.
+„squid:S1192R"aDefine a constant instead of duplicating this literal "(\r\n|[\n\r\u2028\u2029\u0085])?" 5 times.(£©¾úÿÿÿÿ8¹©¼—Š.
+Š"squid:ClassVariableVisibilityCheck"PMake head a static final constant or non-public and provide accessors if needed.(ùø¶şÿÿÿÿ8¹©¼—Š.
+osquid:S2095O"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ğ¢Å–şÿÿÿÿ8¹©¼—Š.
+…"squid:ClassVariableVisibilityCheck"PMake next a static final constant or non-public and provide accessors if needed.(ö¤©Ò8¹©¼—Š.
+Usquid:S2589?"7Remove this expression which always evaluates to "true"(ÿ ğñ8¹©¼—Š.
+Š"squid:ClassVariableVisibilityCheck"PMake data a static final constant or non-public and provide accessors if needed.(ÅÖÔ´ùÿÿÿÿ8¹©¼—Š.

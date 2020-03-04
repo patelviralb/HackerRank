@@ -1,0 +1,6 @@
+
+psquid:S00117Q"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çò¼¨8Öí‚Š.
+…"squid:ClassVariableVisibilityCheck	"PMake next a static final constant or non-public and provide accessors if needed.(ö¤©Ò8Öí‚Š.
+1squid:S1220""Move this file to a named package.
+Š"squid:ClassVariableVisibilityCheck"PMake data a static final constant or non-public and provide accessors if needed.(ÅÖÔ´ùÿÿÿÿ8Öí‚Š.
+Š"squid:ClassVariableVisibilityCheck"PMake head a static final constant or non-public and provide accessors if needed.(ùø¶şÿÿÿÿ8Öí‚Š.
