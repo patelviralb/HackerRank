@@ -1,0 +1,8 @@
+
+1squid:S1220""Move this file to a named package.
+„squid:S1192Q"aDefine a constant instead of duplicating this literal "(\r\n|[\n\r\u2028\u2029\u0085])?" 4 times.(£©¾úÿÿÿÿ8Ï²ò½Š.
+osquid:S2095N"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ğ¢Å–şÿÿÿÿ8Ï²ò½Š.
+Š"squid:ClassVariableVisibilityCheck"PMake data a static final constant or non-public and provide accessors if needed.(ÅÖÔ´ùÿÿÿÿ8Ï²ò½Š.
+…"squid:ClassVariableVisibilityCheck"PMake next a static final constant or non-public and provide accessors if needed.(ö¤©Ò8Ï²ò½Š.
+Š"squid:ClassVariableVisibilityCheck"PMake head a static final constant or non-public and provide accessors if needed.(ùø¶şÿÿÿÿ8Ï²ò½Š.
+Š"squid:ClassVariableVisibilityCheck"PMake tail a static final constant or non-public and provide accessors if needed.(áŸ¬Àıÿÿÿÿ8Ï²ò½Š.
